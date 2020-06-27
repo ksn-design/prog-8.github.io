@@ -38,7 +38,7 @@ a {
   float:left;
   line-height:55px;
 }
-.menu-icon{
+.header span{
   display: none;
 }
 .name{
