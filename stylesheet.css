@@ -38,7 +38,7 @@ a {
   float:left;
   line-height:55px;
 }
-.header span{
+.menu-icon{
   display: none;
 }
 .name{
@@ -77,9 +77,6 @@ a {
   padding:0 15px;
   color: white;
 }
-.fa-menu{
-  display:none;
-}
 a:hover{
   background-color: rgba(10, 10, 15, 0.5);
   transition: 0.2s;
@@ -103,7 +100,7 @@ a:hover{
   margin-left:60px;
 }
 .sentence2{
-  padding-left: 60px;
+  text-align: center;
   margin-top: 20px;
   font-size: 20px;
   transition: all 1.8s;
