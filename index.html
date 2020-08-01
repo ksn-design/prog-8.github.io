@@ -20,7 +20,15 @@
         </div>
       </div>
       <div class="header-right">
-        <a href="https://www.instagram.com/kishin_programming/?hl=ja">お問い合わせ</a>
+        <button class="btn-menu">メニュー</button>
+        <nav>
+        <ul>
+          <li><a href="#">ホーム</a></li>
+          <li><a href="#">サービス概要</a></li>
+          <li><a href="#">実績紹介</a></li>
+          <li><a href="https://www.instagram.com/kishin_programming/?hl=ja">お問い合わせ</a></li>
+        </ul>
+      </nav>
       </div>
 
       <div class="clear"></div>
@@ -43,6 +51,7 @@
       </div>
     </div>
   </div>
+  <div class="polygon1 polygon"></div>
   <div class="service">
     <div class="service-wrapper">
       <div class="container">
@@ -83,13 +92,13 @@
         <div class="photo-box">
 
           <div class="photo">
-            <a href="https://ksn-design.github.io/KSN/"> <img src="myweb.jpg" alt=""> </a>
+            <a href="https://ksn-design.github.io/KSN/"> <img src="web.jpg" alt=""> </a>
             <div class="text">
               <p>KSN-DESIGN</p>
             </div>
           </div>
           <div class="photo">
-            <a href="https://ksn-design.github.io/KanaYoga/"> <img src="sunsetweb.jpg" alt=""> </a>
+            <a href="https://ksn-design.github.io/KanaYoga/"> <img src="KanaYoga.jpg" alt=""> </a>
             <div class="text">
               <p>カナ Sunset Yoga</p>
             </div>
@@ -123,5 +132,13 @@
       </div>
     </div>
   </div>
+  <script>
+  const btn = document.querySelector('.btn-menu');
+    const nav = document.querySelector('nav');
+
+    btn.addEventListener('click', () => {
+      nav.classList.toggle('open-menu')
+    });
+  </script>
 </body>
 </html>
