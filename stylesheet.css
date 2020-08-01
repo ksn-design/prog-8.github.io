@@ -20,6 +20,8 @@ li {
 a {
   text-decoration: none;
   border-radius: 10%;
+  white-space: nowrap;
+  color: #fff;
 }
 
 .header{
@@ -34,6 +36,7 @@ a {
   width: 88%;
   margin:0 auto;
 }
+
 .header-left{
   float:left;
   line-height:55px;
@@ -68,15 +71,31 @@ a {
   transition: all 0.5s;
 }
 
-.header-right a{
+.btn-menu{
   float:right;
   display:block;
-  line-height: 55px;
+  line-height: 40px;
   background-color: rgba(39,39,40,0.4);
   transition: all 0.5s;
   padding:0 15px;
   color: white;
 }
+nav{
+  position: absolute;
+  top: 45px;
+  right: 0;
+  overflow-x: hidden;
+  text-align: center;
+  width: 0;
+  background: rgba(70,71,78);
+  z-index: 1;
+  transition: 0.5s;
+
+}
+.open-menu{
+  width: 100%;
+}
+
 a:hover{
   background-color: rgba(10, 10, 15, 0.5);
   transition: 0.2s;
@@ -84,6 +103,7 @@ a:hover{
 .clear{
   clear: both;
 }
+
 .main-title{
   margin-top:90px;
   margin-bottom: 90px;
@@ -133,8 +153,7 @@ a:hover{
   width: 80%;
   padding-bottom: 40px;
 }
-.clear{
-  clear: both;
+
 }
 video{
   position: fixed;
@@ -157,6 +176,7 @@ video{
   font-family: sans-serif;
   display: block;
 }
+
 .photo{
   float: left;
   width: 50%;
