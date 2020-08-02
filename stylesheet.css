@@ -90,8 +90,8 @@ nav{
   background: rgba(70,71,78);
   z-index: 1;
   transition: 0.5s;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 
 }
 nav li{
