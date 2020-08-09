@@ -1,4 +1,5 @@
-@media (max-width: 670px) {
+/*small screen*/
+@media (max-width:670px) {
   .header{
     background-color: rgba(50,50,51,0.9);
     width:100%;
@@ -23,6 +24,10 @@
   }
   .main-title{
     text-align: center;
+    top: 80px;
+    font-size: 13px;
+    font-weight: bolder;
+  
   }
   .sentence1 h2{
     margin: 0 auto;
@@ -54,3 +59,5 @@
     width: 100%;
   }
 }
+
+/*large screen*/
