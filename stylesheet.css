@@ -23,7 +23,6 @@ a {
   white-space: nowrap;
   color: #fff;
 }
-
 .header{
   background-color: rgba(50,50,51,0.9);
   width:100%;
@@ -111,15 +110,23 @@ a:hover{
 .clear{
   clear: both;
 }
-
-.main-title{
-  margin-top:90px;
-  margin-bottom: 90px;
-  text-align: center;
+.video-container{
+  position: relative;
+  overflow-x: hidden;
 }
+.main-title{
+  position: absolute;
+  top: 300px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
 .sentence{
   text-align: center;
-  margin-bottom: 30px;
+  margin: 30px 0;
+
 }
 .sentence1{
   transition: all 0.8s;
@@ -182,22 +189,23 @@ video{
   font-weight: 100;
   padding: 15px;
   font-family: sans-serif;
-  display: block;
+}
+video{
+  width: 100%;
 }
 
 .photo{
+  width: 45%;
   float: left;
-  width: 50%;
   margin: 0 auto;
   margin: 20px 0;
 }
-.photo img{
+.photo img {
   display:block;
   text-align: center;
-  width:50%;
   padding-left: 25%;
 
 }
-.photo img :hover{
+.photo img video:hover{
   opacity: 1.0;
 }
